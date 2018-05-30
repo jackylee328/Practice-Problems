@@ -20,8 +20,9 @@
  }
 
 void findMajority(int n){
+    int half = n / 2;
     for (int i = 0; i < 100; i++){
-        if (array[i] > n / 2){
+        if (array[i] > half){
             cout << i << endl;
             return;
         }
